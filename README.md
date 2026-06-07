@@ -1,21 +1,23 @@
-# Universal-vacuums
-A Home Assistant HACS integration for manual control and 2026 area mapping across various robot vacuum brands.
-# 🧹 Universal Vacuums
-**A Multi-Brand Robot Vacuum Fleet Controller for Home Assistant**
+# Tapo Vacuum Advanced
+A custom Home Assistant HACS integration giving you full control, editing, and 2026 area mapping for TP-Link Tapo robot vacuums.
 
-This integration allows you to control a diverse fleet of robot vacuums (Tapo, Tikom, Wyze) as a single unified entity. It leverages the **March 2026.3 Area Mapping** features to let you dispatch specific robots to specific rooms using the native Home Assistant UI.
+# 🧹 Tapo Vacuum Advanced
+**An Advanced Control & Feature Unlocker for Tapo Robot Vacuums in Home Assistant**
+
+This dedicated integration provides granular control, setting customization, and advanced mapping capabilities for your Tapo robot vacuum. It fully leverages the **March 2026.3 Area Mapping ("A clean sweep")** update, allowing you to map your Tapo room segments directly to Home Assistant Areas for seamless UI targeting.
 
 ## 🚀 Features
-* **Unified Control:** Start, stop, and dock all robots at once.
-* **Area Mapping:** Map 2026.3 Areas directly to specific vacuum segments.
-* **Steering:** Manual remote control support for supported models.
+* **Full Control:** Advanced states (Start, Pause, Dock, Stop) interacting directly with Tapo local/polling protocols.
+* **2026.3 Area Mapping:** Send your vacuum to specific rooms using native Home Assistant Areas and the `vacuum.clean_area` action.
+* **Granular Editing:** Exposes secondary entities for real-time adjustments like mopping water flow levels and fan speed presets.
 
-## 🤖 Supported Models in this Build
-* **Tapo RV20 Max Plus** (via Tapo Integration)
-* **Tikom 6000Pa** (via Tuya/Generic Vacuum)
-* **Wyze 200s** (via Wyze Integration)
+## 🤖 Target Hardware
+* Optimized for **TP-Link Tapo Robot Vacuums** (including LiDAR mapping models like the RV series).
 
 ## 🛠️ Installation
-1. Add this URL as a **Custom Repository** in HACS.
-2. Download and Restart Home Assistant.
-3. Add the **Universal Vacuums** integration via Settings > Devices & Services.
+1. Copy your GitHub repository URL.
+2. In Home Assistant, go to **HACS** > **Integrations**.
+3. Click the three dots in the top-right corner and select **Custom repositories**.
+4. Paste the URL, select **Integration** as the Category, and click **Add**.
+5. Download and restart Home Assistant.
+6. Go to **Settings** > **Devices & Services** > **Add Integration** and search for **Tapo Vacuum Advanced**.
