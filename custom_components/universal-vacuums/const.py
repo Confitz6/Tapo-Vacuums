@@ -1,1 +1,0 @@
-DOMAIN = "universal_vacuums"
